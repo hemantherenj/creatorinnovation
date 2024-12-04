@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Dosis:wght@200..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+    scroll-behavior: smooth;
+  } */
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    color: #404040;
+    font-size: 40px;
+    font-weight: 800;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    color: #404040;
+    font-size: 35px;
+    font-weight: 800;
+}
+h3{
+    font-family: 'Dosis', sans-serif;
+    color: #404040;
+    font-size: 30px;
+    font-weight: 800;
+}
+h4{
+    font-family: 'Dosis', sans-serif;
+    color: #404040;
+    font-size: 25px;
+    font-weight: 700;
+}
+h5{
+    font-family: 'Dosis', sans-serif;
+    color: #404040;
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Catamaran', sans-serif;
+}
